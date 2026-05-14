@@ -1,14 +1,6 @@
-select * from supermarket_sales ss limit 30;
-
 # Business Question 1
 
 -- Which customers segment generate the highest average transaction value? --
-
-/*
-AVG()
-GROUP BY
-ORDER BY
-*/
 
 select
 	count(order_id) as order_count,
