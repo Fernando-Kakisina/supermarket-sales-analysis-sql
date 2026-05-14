@@ -88,7 +88,7 @@ Labels is the most region-specific sub-category, with West contributing 40.6% of
 ## 🔗 Connect with Me
 
 - **LinkedIn**: www.linkedin.com/in/fernando-william-kakisina/
-- **Medium**: [soon]
+- **Medium**: https://medium.com/@fernandowilliamk
 
 ---
 
