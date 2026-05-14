@@ -4,12 +4,7 @@ select * from supermarket_sales ss limit 30;
 
 -- Which regions experience the slowest shipping performance? --
 
-/*
-AVG()
-GROUP BY
-*/
-
--- Menghitung presentse shipping_days >= 5
+-- Counting percentage of shipping_days >= 5
 select
 	ss.region,
 	AVG(ss.shipping_days) as avg_shipping_days,
@@ -19,7 +14,7 @@ group by ss.region
 order by avg_shipping_days desc
 ;
 
--- Analisa mendalam per ship_mode untuk region central
+-- ship_mode analysis for central region
 select
 	ss.region,
 	ss.ship_mode,
